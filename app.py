@@ -19,4 +19,4 @@ pred_calss = pred[0]
 class_names = ['Setosa', 'Versicolor','Virginica']
 
 st.subheader("예측 결과:")
-st.write(f"->{class_names[pred_calss]}")
+st.write(f"->{class_names[pred_class]}")
